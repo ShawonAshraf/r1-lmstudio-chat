@@ -1,16 +1,15 @@
 # r1-lmstudio-chat
 
-> A simple lmstudio hosted deepseek r1 based chatbot made with Streamlit 
-
+> A simple lmstudio hosted deepseek r1 based chatbot made with Streamlit
 
 ## llm backend
+
 LM Studio Rest API. Download LM Studio, then load `deepseek-r1-distill-qwen-7b` and start the server.
 
 ## running locally
 
 > [!IMPORTANT]
 > Make sure to start the llm backend first!
-
 
 Install uv
 
@@ -31,5 +30,9 @@ uv pip install -e .
 Now you can run the chatbot
 
 ```bash
-uv run streamlit run bot.py  
+uv run streamlit run bot.py
 ```
+
+## disclaimer
+
+This isn't a production ready chatbot and is only meant to be used as a demo.
