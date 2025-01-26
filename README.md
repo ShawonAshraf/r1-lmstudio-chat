@@ -24,7 +24,8 @@ Once installed,
 git clone https://github.com/ShawonAshraf/r1-lmstudio-chat.git
 cd r1-lmstudio-chat
 uv venv
-uv sync
+source .venv/bin/activate
+uv pip install -e .
 ```
 
 Now you can run the chatbot
