@@ -31,5 +31,5 @@ uv pip install -e .
 Now you can run the chatbot
 
 ```bash
-uv run bot.py
+uv run streamlit run bot.py  
 ```
