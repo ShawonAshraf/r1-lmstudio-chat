@@ -1,0 +1,16 @@
+[project]
+name = "smol-chatbot"
+version = "0.1.0"
+description = "A streamlit based chatbot demo"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "loguru>=0.7.3",
+    "openai>=1.60.1",
+    "streamlit>=1.41.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.3",
+]
