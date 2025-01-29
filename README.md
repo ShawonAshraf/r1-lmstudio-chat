@@ -1,6 +1,6 @@
 # r1-lmstudio-chat
 
-> A simple lmstudio hosted deepseek r1 based chatbot made with Streamlit
+> A simple deepseek r1 based chatbot made with Streamlit and lmstudio backend
 
 ## llm backend
 
